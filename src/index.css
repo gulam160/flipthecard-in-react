@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply m-0 p-0 box-border;
+}
+
+.cards {
+  @apply mx-auto w-[40%] sm:w-[98%] md:w-[80%] lg:w-[70%] border-[0.5px] border-gray-400 rounded-md shadow-card-shadow px-4 py-2;
+}

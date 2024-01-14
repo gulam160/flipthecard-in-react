@@ -1,10 +1,10 @@
 import React from "react";
 import { Icon, Image } from "@chakra-ui/react";
 import { RiVerifiedBadgeFill } from "react-icons/ri";
-import profilePhoto from "@/assets/my-profile.svg";
 import { data } from "@/constants/SkillData";
 import { FaLocationDot } from "react-icons/fa6";
 import { MdOutlineConnectWithoutContact } from "react-icons/md";
+import ProfilePhoto from "./ProfilePhoto";
 
 interface FrontCardProps {
   handleFlip: () => void;
@@ -15,12 +15,7 @@ const FrontCard: React.FC<FrontCardProps> = ({ handleFlip }) => {
     <div className="cards h-full">
       <section className="flex justify-center mt-8">
         <div className="border-2 border-[#0095f6] rounded-full relative">
-          <Image
-            src={profilePhoto}
-            alt="profile"
-            width={140}
-            className="rounded-full"
-          />
+          <ProfilePhoto />
           <Icon
             as={RiVerifiedBadgeFill}
             fontSize={30}

@@ -13,10 +13,10 @@ import {
   SiGatsby,
   SiWebpack,
   SiAndroid,
+  SiSvelte,
 } from "react-icons/si";
 import { FaAppStoreIos, FaReact, FaSass } from "react-icons/fa";
 import { TbBrandCypress, TbBrandReactNative } from "react-icons/tb";
-import { FaGolang } from "react-icons/fa6";
 import { GrNode, GrGraphQl } from "react-icons/gr";
 import GCloud from "@/assets/google_cloud-icon.svg";
 import Awalogo from "@/assets/Aws-logo.svg";
@@ -33,11 +33,6 @@ export const data = [
     color: "#3178c6",
   },
   {
-    id: "03",
-    icon: FaGolang,
-    color: "#6fd8e6",
-  },
-  {
     id: "04",
     icon: FaSass,
     color: "#d2699e",
@@ -46,6 +41,11 @@ export const data = [
     id: "05",
     icon: SiTailwindcss,
     color: "#38bdf8",
+  },
+  {
+    id: "03",
+    icon: SiSvelte,
+    color: "#ff3e00",
   },
   {
     id: "06",

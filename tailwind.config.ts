@@ -19,8 +19,12 @@ export default {
         instagram: "#973989",
         facebook: "#44578a",
       },
+      fontFamily: {
+        "san-jakarta": ["Plus Jakarta Sans"],
+        fasthand: ["Fasthand"],
+      },
       boxShadow: {
-        "card-shadow": "rgba(0, 0, 0, 0.24) 0px 3px 8px;",
+        "card-shadow": "rgba(0, 0, 0, 0.24) 0px 3px 8px",
       },
     },
   },
